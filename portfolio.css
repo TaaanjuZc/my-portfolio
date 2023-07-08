@@ -1,0 +1,94 @@
+/* nav related styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 200px ;
+}
+
+.Tanjim {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.color-primary {
+  color: rgb(38, 107, 81);
+}
+
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  margin-right: 50px;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #474747;
+}
+
+.primary-btn {
+  width: 130px;
+  height: 55px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: rgb(38, 107, 81);
+  color: white;
+  border: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.header {
+  background-color: rgb(213, 224, 213);
+  background-image: url(developer.png);
+  background-repeat: no-repeat;
+  
+} 
+
+.banner {
+  padding: 30px 30px 0px 150px ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner-content {
+  max-width: 500px;
+}
+
+.banner .banner-img {
+  width: 500px;
+}
+
+.banner-content {
+  justify-content: space-between;
+}
+
+.banner-gretting {
+  font-size: 45px;
+  color: #474747;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.banner-title {
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.banner-description {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
