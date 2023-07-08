@@ -155,3 +155,36 @@ main {
 .info-description {
   margin-top: 0px;
 }
+
+.i-do-des {
+  padding: 32px 221px;
+}
+
+.skill-container {
+  display: flex;
+  margin-left: 128px;
+}
+
+.skill {
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  padding: 30px;
+  gap: 40px;
+
+  width: 200px;
+  height: 300px;
+  margin: 13px;
+}
+
+.skill-title{
+  color: #181818;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.skill-description {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+}
