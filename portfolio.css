@@ -113,6 +113,9 @@ main {
   margin: 0 auto;
 }
 
+main section {
+  margin-top: 130px;
+}
 
 .about {
   padding: 130px; 
@@ -185,6 +188,7 @@ main {
 
 .skill-description {
   color: #757575;
-  text-align: center;
   font-size: 18px;
 }
+
+
